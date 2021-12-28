@@ -32,20 +32,11 @@
         
         <!-- iOS9 whitelisting -->
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+            <key>UIDeviceFamily</key>
             <array>
-                <string>twitter</string>
-                <string>fb</string>
-                <string>whatsapp</string>
-                <string>itms-apps</string>
-                <string>youtube</string>
-                <string>soundcloud</string>
-                <string>fb-messenger</string>
-                <string>instagram</string>
+                <integer>1</integer>
             </array>
-        </config-file>
-        
-        
-        
+   
     </platform>
     
 </plugin>
